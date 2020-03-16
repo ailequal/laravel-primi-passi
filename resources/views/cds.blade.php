@@ -16,13 +16,12 @@
 		</header>
 
 		<div class="cds-container">
-			{{-- {{$cds}} --}}
 			@foreach ($cds as $album)
 			<div class="cd">
 				<img src="{{$album['cover']}}" />
-				<h3>{{$album=>['album']}}</h3>
-				<small>{{$album=>['artist']}}</small>
-				<strong>{{$album=>['year']}}</strong>
+				<h3>{{$album['album']}}</h3>
+				<small>{{$album['artist']}}</small>
+				<strong>{{$album['year']}}</strong>
 			</div>
 			@endforeach
 		</div>
