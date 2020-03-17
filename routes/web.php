@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/', 'CdsController@index');
+Route::get('/', 'CdsController@index')->name('cds');

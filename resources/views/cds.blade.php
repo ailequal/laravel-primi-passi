@@ -1,11 +1,5 @@
 @extends('layouts.app')
 
-@section('head')
-@endsection
-
-@section('header')
-@endsection
-
 @section('main')
 <div class="container">
 	<div class="cds-container">
@@ -19,7 +13,4 @@
 		@endforeach
 	</div>
 </div>
-@endsection
-
-@section('footer')
 @endsection
